@@ -1,0 +1,86 @@
+
+.nav-ul {
+  padding: 5px;
+  margin: 0;
+  background-color: aqua;
+}
+.nav-ul li{
+  display: inline-block;
+  padding: 10px;
+}
+.nav-ul li a{
+  padding: 5px;
+ color: #fff;
+  text-decoration: none;
+}
+.footer{
+  position:absolute;
+  bottom: 0;
+  text-align: center;
+  width: 100%;
+  background-color: skyblue;
+}
+.signup,.product{
+  display: grid;
+  place-items: center;
+}
+.login{
+  display: grid;
+  place-items: center;
+}
+.inputBox{
+  display: block;
+  margin: 20px;
+  padding: 9px;
+  width: 300px;
+  font-size: 20px;
+  border: 2px solid skyblue;
+
+}
+.button{
+  margin: 25px;
+  padding: 10px;
+  width: 15%;
+  background-color: brown;
+  color: floralwhite;
+  border: 2px solid rgb(255, 17, 0);
+  cursor:pointer;
+}
+.nav-right{
+  text-align: right;
+}
+.logo{
+  width: 45px;
+  float: left;
+  border-radius: 50%;
+  margin-top: 3px;
+  margin-left: 20px;
+}
+.invalid-input{
+  color: red;
+  margin: -20px;
+  margin-left: -150px;
+  
+}
+.product-list {
+     text-align: center;
+     margin-top:50px ;
+}
+.product-list ul li{
+
+  display: inline-block;
+  border: 1px solid skyblue;
+  padding: 5px;
+  width: 150px;
+}
+.product-list ul{
+  margin: 0;
+}
+
+.search-product-box{
+  width: 400px;
+  margin: 20px;
+  height: 40px;
+  border: 1px solid skyblue;
+  padding-left: 20px;
+}
